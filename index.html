@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>مركز قيادة العلوم – المعلم منصور عامر الرحيلي</title>
+<title>مركز قيادة العلوم – المعلمة تهاني مهنا الحجيلي</title>
 <meta name="theme-color" content="#05060f">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" href="icon-192.png">
@@ -359,12 +359,12 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
         <animateTransform attributeName="transform" type="rotate" from="140 75 75" to="500 75 75" dur="8s" repeatCount="indefinite"/></g>
     </svg>
     <h1>مركز قيادة العلوم</h1>
-    <p class="sub" id="lockSub">مدرسة داوود بن عروة الثقفي</p>
+    <p class="sub" id="lockSub">الابتدائية الأولى للبنات بالمدينة</p>
     <form id="lockForm" autocomplete="off">
       <input type="password" id="pw1" placeholder="الرقم السري" autocomplete="current-password">
-      <input type="password" id="pw2" placeholder="أعد كتابة الرقم السري" hidden>
+      <input type="password" id="pw2" placeholder="أعيدي كتابة الرقم السري" hidden>
       <div class="lock-msg" id="lockMsg" role="alert"></div>
-      <label class="remember"><input type="checkbox" id="rememberDevice"> تذكّر هذا الجهاز</label>
+      <label class="remember"><input type="checkbox" id="rememberDevice"> تذكّري هذا الجهاز</label>
       <button class="btn block" type="button" id="lockBtn">دخول</button>
     </form>
   </div>
@@ -374,8 +374,8 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
 <div id="app" hidden>
   <header class="topbar">
     <div class="brand">
-      <b>مدرسة داوود بن عروة الثقفي</b>
-      <span>المعلم: منصور عامر الرحيلي</span>
+      <b>الابتدائية الأولى للبنات بالمدينة</b>
+      <span>المعلمة: تهاني مهنا الحجيلي</span>
     </div>
     <div style="display:flex;gap:8px">
     <button class="icon-btn" id="installTop" onclick="installPWA()" aria-label="تثبيت التطبيق" title="تثبيت التطبيق">
@@ -391,7 +391,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
     <!-- ===== المدار (الرئيسية) ===== -->
     <section id="view-home" class="view active">
       <div id="backupBanner" class="banner noprint" hidden>
-        <span>مرّ أكثر من أسبوع على آخر نسخة احتياطية. احفظ نسخة الآن حتى لا تضيع بياناتك.</span>
+        <span>مرّ أكثر من أسبوع على آخر نسخة احتياطية. احفظي نسخة الآن حتى لا تضيع بياناتك.</span>
         <button class="btn sm warn" onclick="backupAll()">حفظ نسخة</button>
       </div>
  
@@ -400,7 +400,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
           <div class="eyebrow">مادة العلوم – المرحلة الابتدائية</div>
           <h2 id="gradeTitle">الصف الأول</h2>
           <div class="planet" id="planetName">مدار عطارد</div>
-          <p class="hint" style="margin-top:8px;max-width:340px">كل كوكب يمثّل صفاً دراسياً. المس كوكباً لتنتقل إلى بيانات ذلك الصف.</p>
+          <p class="hint" style="margin-top:8px;max-width:340px">كل كوكب يمثّل صفاً دراسياً. المسي كوكباً لتنتقل إلى بيانات ذلك الصف.</p>
           <div class="panel clock-panel noprint" style="margin-top:14px">
             <div class="clock" onclick="toggleSched()">
               <div class="clock-ring">
@@ -426,12 +426,12 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
             </div>
           </div>
         </div>
-        <div class="orbit-wrap"><svg id="orbit" viewBox="0 0 360 360" role="group" aria-label="النظام الشمسي: اختر الصف"></svg></div>
+        <div class="orbit-wrap"><svg id="orbit" viewBox="0 0 360 360" role="group" aria-label="النظام الشمسي: اختاري الصف"></svg></div>
         <div class="chips-col"><div class="chips" id="gradeChips"></div></div>
       </div>
  
       <div class="stats noprint">
-        <div class="stat"><div class="k">الطلاب</div><div class="n" id="totalStudents">0</div></div>
+        <div class="stat"><div class="k">الطالبات</div><div class="n" id="totalStudents">0</div></div>
         <div class="stat"><div class="k">إتقان الدروس</div><div class="n" id="totalSkills">0%</div><div class="bar"><b id="barSkills"></b></div></div>
         <div class="stat"><div class="k">الدروس المنفذة</div><div class="n" id="totalExecutedLessons">0 / 0</div><div class="bar"><b id="barLessons"></b></div></div>
         <div class="stat"><div class="k">المشاركات</div><div class="n" id="totalParticipation">0</div></div>
@@ -439,18 +439,18 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
         <div class="stat"><div class="k">أيام الغياب</div><div class="n" id="totalAbsence">0</div></div>
         <div class="stat"><div class="k">االانشطة</div><div class="n" id="totalProjects">0</div></div>
         <div class="stat"><div class="k">رسائل الواتساب</div><div class="n" id="totalMessagesSent">0</div></div>
-      </div>}
+      </div>
       <div class="panel noprint" style="margin-top:14px;border-color:rgba(94,234,212,.4)">
   <div class="panel-h"><h3>الحصة السريعة</h3></div>
   <select id="quickClass" onchange="qkSet(this.value)"></select>
   <div id="quickList" style="margin-top:10px"></div>
 </div>
  <div class="panel noprint" style="margin-top:14px;border-color:rgba(255,207,112,.4)">
-  <div class="panel-h"><h3>يحتاجون انتباهك اليوم</h3><span class="hint" id="attnCount"></span></div>
+  <div class="panel-h"><h3>يحتجن انتباهك اليوم</h3><span class="hint" id="attnCount"></span></div>
   <div id="attnList"></div>
 </div>
       <div class="panel noprint" style="margin-top:14px">
-  <div class="panel-h"><h3>الطلاب الصامتون</h3><span class="hint" id="silentCount"></span></div>
+  <div class="panel-h"><h3>الطالبات الصامتات</h3><span class="hint" id="silentCount"></span></div>
   <div id="silentList"></div>
 </div>
       <div class="panel noprint" style="margin-top:14px">
@@ -463,28 +463,28 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
       </div>
     </section>
  
-    <!-- ===== الطلاب ===== -->
+    <!-- ===== الطالبات ===== -->
     <section id="view-students" class="view">
       <div class="stack">
         <div class="panel noprint">
-          <div class="panel-h"><h3>إضافة طالب</h3></div>
+          <div class="panel-h"><h3>إضافة طالبة</h3></div>
           <div class="form">
-            <input type="text" id="studentName" placeholder="اسم الطالب">
+            <input type="text" id="studentName" placeholder="اسم الطالبة">
             <input type="text" id="studentClassCustom" placeholder="الصف والفصل (مثال: رابع ابتدائي أول)">
             <input type="tel" id="studentPhone" maxlength="10" inputmode="numeric" placeholder="جوال ولي الأمر (10 أرقام)">
-            <button class="btn block" onclick="addStudent()">إضافة الطالب</button>
+            <button class="btn block" onclick="addStudent()">إضافة الطالبة</button>
           </div>
         </div>
  
         <div class="panel" id="studentsPanel">
           <div class="panel-h">
-            <h3>الفصول والطلاب</h3>
+            <h3>الفصول والطالبات</h3>
             <button class="btn sm ghost noprint" onclick="printSection('studentsPanel')">طباعة</button>
           </div>
           <div class="noprint">
-            <div class="hint" style="margin-bottom:8px">اضغط على الفصل لعرض طلابه، أو ابحث بالاسم.</div>
+            <div class="hint" style="margin-bottom:8px">اضغطي على الفصل لعرض طالباته، أو ابحثي بالاسم.</div>
             <div class="class-list" id="classList"></div>
-            <input type="search" id="filterStudentNameInput" placeholder="ابحث عن طالب بالاسم في كل الفصول…" oninput="onSearchStudents()" style="margin-top:10px">
+            <input type="search" id="filterStudentNameInput" placeholder="ابحثي عن طالبة بالاسم في كل الفصول…" oninput="onSearchStudents()" style="margin-top:10px">
           </div>
           <div class="students" id="studentsList" style="margin-top:12px"></div>
           <div class="pager noprint">
@@ -495,7 +495,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
         </div>
  
         <div class="panel noprint">
-          <div class="panel-h"><h3>تصدير واستيراد الطلاب</h3></div>
+          <div class="panel-h"><h3>تصدير واستيراد الطالبات</h3></div>
           <div class="btn-grid">
             <button class="btn good" onclick="exportExcel()">تصدير Excel</button>
             <button class="btn warn" onclick="$('importExcelFile').click()">استيراد Excel</button>
@@ -512,7 +512,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
         <div class="panel noprint">
           <div class="panel-h"><h3 id="curriculumTitle">مقرر العلوم</h3></div>
           <select id="curriculumSelect" onchange="onCurriculumChange(this.value)">
-            <option value="">اختر درساً للاطلاع على تفاصيله</option>
+            <option value="">اختاري درساً للاطلاع على تفاصيله</option>
           </select>
           <div id="lessonDetail" class="detail-box" hidden></div>
           <div id="lessonsTimeline" style="margin-top:8px"></div>
@@ -537,15 +537,15 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
             <button class="btn sm ghost noprint" onclick="printSection('masteryPanel')">طباعة</button>
           </div>
           <div class="form noprint">
-            <select id="masteryLessonSelect" onchange="renderMasteryTable()"><option value="">اختر الدرس</option></select>
+            <select id="masteryLessonSelect" onchange="renderMasteryTable()"><option value="">اختاري الدرس</option></select>
             <select id="masteryClassSelect" onchange="renderMasteryTable()"><option value="">كل الفصول</option></select>
           </div>
           <div id="masterySummary" class="mini-stats" style="margin-top:10px" hidden>
-            <div>متقنون<strong id="countMastered" style="color:var(--good)">0</strong></div>
-            <div>يحتاجون مراجعة<strong id="countReview" style="color:var(--bad)">0</strong></div>
+            <div>متقنات<strong id="countMastered" style="color:var(--good)">0</strong></div>
+            <div>يحتجن مراجعة<strong id="countReview" style="color:var(--bad)">0</strong></div>
           </div>
           <div class="tbl-wrap"><table>
-            <thead><tr><th>الطالب</th><th>الفصل</th><th>الحالة</th><th class="noprint">تغيير</th></tr></thead>
+            <thead><tr><th>الطالبة</th><th>الفصل</th><th>الحالة</th><th class="noprint">تغيير</th></tr></thead>
             <tbody id="masteryTbody"></tbody></table></div>
         </div>
  
@@ -553,11 +553,11 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
           <div class="panel-h"><h3>إرسال الواجب لأولياء الأمور</h3></div>
           <div class="form">
             <select id="bulkTargetClass"><option value="ALL">كل الفصول</option></select>
-            <select id="bulkLesson" onchange="updateBulkPreview()"><option value="">اختر درس الواجب</option></select>
+            <select id="bulkLesson" onchange="updateBulkPreview()"><option value="">اختاري درس الواجب</option></select>
             <input type="text" id="bulkDetails" placeholder="المطلوب (مثال: حل ص 45)" oninput="updateBulkPreview()">
             <input type="text" id="bulkNote" placeholder="ملاحظات إضافية (اختياري)" oninput="updateBulkPreview()">
           </div>
-          <div id="bulkPreview" class="preview">اختر الدرس وأدخل تفاصيل الواجب لتظهر الرسالة هنا.</div>
+          <div id="bulkPreview" class="preview">اختاري الدرس وأدخلي تفاصيل الواجب لتظهر الرسالة هنا.</div>
           <div id="bulkPanel" hidden><div class="send-list" id="bulkList"></div></div>
           <button class="btn wa block" style="margin-top:8px" onclick="prepareBulk()">تجهيز روابط الإرسال</button>
         </div>
@@ -596,7 +596,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
         </select></div>
       <div class="f"><label>الفصل</label>
         <select id="selectClassDigit" onchange="switchExamModel()">
-          <option value="all">كل طلاب الصف</option>
+          <option value="all">كل طالبات الصف</option>
           <option value="1">فصل 1</option><option value="2">فصل 2</option><option value="3">فصل 3</option>
           <option value="4">فصل 4</option><option value="5">فصل 5</option><option value="6">فصل 6</option>
         </select></div>
@@ -622,7 +622,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
     </div>
     <div id="lessonBox" class="sub" hidden>
       <h5>الدروس المستهدفة بالاختبار</h5>
-      <p class="hint" style="margin-bottom:8px">سيولّد الذكاء الاصطناعي الأسئلة من محتوى الدروس التي تختارها هنا فقط.</p>
+      <p class="hint" style="margin-bottom:8px">سيولّدي الذكاء الاصطناعي الأسئلة من محتوى الدروس التي تختارها هنا فقط.</p>
       <div class="checks" id="examLessonChecks"></div>
     </div>
     <div class="sub">
@@ -631,7 +631,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
     </div>
     <div class="sub" style="border-color:rgba(var(--accent-rgb),.4)">
       <h5>توليد الأسئلة بالذكاء الاصطناعي (Gemini)</h5>
-      <p class="hint" style="margin-bottom:8px">عند الضغط على "توليد ورقة الاختبار"، يتم إرسال طلب لنموذج Gemini لتوليد أسئلة جديدة في كل مرة: حسب الدروس المختارة أعلاه للاختبارات الفصلية، أو حسب مجالات نافس المحددة لاختبارات نافس. أدخل مفتاح Gemini API من صفحة "المزيد" لتفعيل ذلك، وإلا سيُستخدم نموذج احتياطي مبسّط.</p>
+      <p class="hint" style="margin-bottom:8px">عند الضغط على "توليد ورقة الاختبار"، يتم إرسال طلب لنموذج Gemini لتوليد أسئلة جديدة في كل مرة: حسب الدروس المختارة أعلاه للاختبارات الفصلية، أو حسب مجالات نافس المحددة لاختبارات نافس. أدخلي مفتاح Gemini API من صفحة "المزيد" لتفعيل ذلك، وإلا سيُستخدم نموذج احتياطي مبسّط.</p>
       <div class="status" id="aiGenStatus" style="color:var(--ink-dim)"></div>
     </div>
     <div class="sub">
@@ -651,11 +651,11 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
     <div id="paper" class="paper" hidden>
       <div class="head">
         <h3>المملكة العربية السعودية – وزارة التعليم</h3>
-        <h4>مدرسة داوود بن عروة الثقفي الابتدائية</h4>
-        <p>معلم المادة: منصور عامر الرحيلي</p>
+        <h4>الابتدائية الأولى للبنات بالمدينة</h4>
+        <p>معلمة المادة: تهاني مهنا الحجيلي</p>
         <p id="printTestInfo" style="color:#1e3a8a"></p>
         <p id="printModelBadge" style="color:#0f766e"></p>
-        <div class="stu"><b>اسم الطالب:</b> ............................................ &nbsp; <b>الصف/الفصل:</b> <span id="printClassValue">..........</span></div>
+        <div class="stu"><b>اسم الطالبة:</b> ............................................ &nbsp; <b>الصف/الفصل:</b> <span id="printClassValue">..........</span></div>
       </div>
       <div id="generatedQuestionsList"></div>
     </div>
@@ -666,7 +666,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
  
   <section class="panel noprint" id="grading">
     <div class="panel-h"><h3>التصحيح السريع</h3></div>
-    <p class="hint" style="margin-bottom:10px">اضغط الحرف الذي اختاره الطالب على ورقته، ويظهر لك فوراً هل هو صحيح.</p>
+    <p class="hint" style="margin-bottom:10px">اضغطي الحرف الذي اختاره الطالبة على ورقته، ويظهر لك فوراً هل هو صحيح.</p>
     <button class="btn good block" onclick="startTouchGradingSession()">بدء جلسة التصحيح</button>
     <div id="studentsNote" class="hint" style="margin-top:8px"></div>
     <div id="touchGradingCard" class="g-card" hidden>
@@ -677,19 +677,19 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
         <button class="btn ghost" onclick="prevQuestionStep()">السابق</button>
         <button class="btn" onclick="nextQuestionStepOrFinish()">التالي / حفظ</button>
       </div>
-      <button class="btn warn sm" style="margin-top:10px" onclick="skipStudent()">تخطي الطالب (غائب)</button>
+      <button class="btn warn sm" style="margin-top:10px" onclick="skipStudent()">تخطي الطالبة (غائبة)</button>
     </div>
   </section>
  
   <section class="panel" id="results">
     <div class="panel-h noprint"><h3>سجل الدرجات</h3></div>
     <div class="noprint">
-      <div class="f"><input type="text" id="searchStudentInput" placeholder="ابحث عن اسم طالب…" oninput="filterStudentResults()"></div>
+      <div class="f"><input type="text" id="searchStudentInput" placeholder="ابحثي عن اسم طالبة…" oninput="filterStudentResults()"></div>
     </div>
     <div id="summaryBox" class="summary" style="margin-top:12px" hidden>
-      <div>عدد الطلاب<strong id="sumCount">0</strong></div>
+      <div>عدد الطالبات<strong id="sumCount">0</strong></div>
       <div>المتوسط<strong id="sumAvg">0</strong></div>
-      <div>المتقنون<strong id="sumMastered">0</strong></div>
+      <div>المتقنات<strong id="sumMastered">0</strong></div>
     </div>
     <div id="correctionOutput" style="margin-top:12px"></div>
     <div class="row noprint" style="margin-top:8px">
@@ -701,22 +701,22 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
   <section id="gradesSheet" class="paper sheet">
     <div class="head">
       <h3>المملكة العربية السعودية – وزارة التعليم</h3>
-      <h4>مدرسة داوود بن عروة الثقفي الابتدائية</h4>
+      <h4>الابتدائية الأولى للبنات بالمدينة</h4>
       <p id="sheetPrintMeta"></p>
     </div>
     <table border="1">
-      <thead><tr><th>م</th><th>اسم الطالب</th><th>الفصل</th><th>الدرجة</th><th>الدرجة الكبرى</th><th>مستوى الإتقان</th></tr></thead>
+      <thead><tr><th>م</th><th>اسم الطالبة</th><th>الفصل</th><th>الدرجة</th><th>الدرجة الكبرى</th><th>مستوى الإتقان</th></tr></thead>
       <tbody id="sheetPrintTableBody"></tbody>
     </table>
     <div style="margin-top:22px;display:flex;justify-content:space-between;font-size:12px;font-weight:700">
-      <div>ختم المدرسة: ....................</div><div>معلم المادة: منصور عامر الرحيلي</div>
+      <div>ختم المدرسة: ....................</div><div>معلمة المادة: تهاني مهنا الحجيلي</div>
     </div>
   </section>
  
   <section class="panel" id="analysisPanel" hidden>
     <div class="head" style="text-align:center;margin-bottom:8px">
       <h3 style="font-size:14px">تقرير تحليل نواتج التعلم والخطط العلاجية</h3>
-      <p class="hint">مدرسة داوود بن عروة الثقفي الابتدائية – معلم المادة: منصور عامر الرحيلي</p>
+      <p class="hint">الابتدائية الأولى للبنات بالمدينة – معلمة المادة: تهاني مهنا الحجيلي</p>
     </div>
     <div id="analysisContentText"></div>
     <div class="noprint" style="margin-top:12px"><button class="btn ghost block" onclick="printSection('analysisPanel')">طباعة التقرير</button></div>
@@ -733,27 +733,27 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
             <h3>اختبارات الفترتين (من 20)</h3>
             <button class="btn sm ghost noprint" onclick="printSection('examsPanel')">طباعة</button>
           </div>
-          <select id="examClassSelect" class="noprint" onchange="renderExamsTable()"><option value="">اختر الفصل</option></select>
+          <select id="examClassSelect" class="noprint" onchange="renderExamsTable()"><option value="">اختاري الفصل</option></select>
           <div id="examsAnalysis" class="mini-stats" style="margin-top:10px" hidden>
             <div>متوسط الفترة 1<strong id="avgExam1">0</strong></div>
             <div>متوسط الفترة 2<strong id="avgExam2">0</strong></div>
           </div>
           <div class="tbl-wrap"><table>
-            <thead><tr><th>الطالب</th><th>الفترة 1</th><th>الفترة 2</th><th class="noprint">إرسال</th></tr></thead>
+            <thead><tr><th>الطالبة</th><th>الفترة 1</th><th>الفترة 2</th><th class="noprint">إرسال</th></tr></thead>
             <tbody id="examsTbody"></tbody></table></div>
         </div>
  
         <div class="panel" id="studentFilePanel">
           <div class="panel-h">
-            <h3>ملف الطالب</h3>
+            <h3>ملف الطالبة</h3>
             <button class="btn sm ghost noprint" onclick="printSection('studentFilePanel')">طباعة</button>
           </div>
           <div class="dd noprint">
-            <input type="text" id="studentSearchInput" placeholder="اكتب اسم الطالب…" oninput="filterStudentDropdown()" onfocus="filterStudentDropdown()" autocomplete="off">
+            <input type="text" id="studentSearchInput" placeholder="اكتبي اسم الطالبة…" oninput="filterStudentDropdown()" onfocus="filterStudentDropdown()" autocomplete="off">
             <div class="dd-list" id="studentDropdown"></div>
           </div>
           <div id="studentCard" hidden>
-            <h4 style="margin:12px 0 4px;font-size:15px">سجل الطالب: <span id="selName"></span> <span class="tag" id="selClass"></span></h4>
+            <h4 style="margin:12px 0 4px;font-size:15px">سجل الطالبة: <span id="selName"></span> <span class="tag" id="selClass"></span></h4>
             <div class="kv">
               <div>المشاركات<strong id="sdParticipation">0</strong></div>
               <div>الواجبات<strong id="sdHomework">0</strong></div>
@@ -764,10 +764,10 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
             </div>
  
             <div class="sub-panel noprint">
-              <h5>نقل الطالب وسجله إلى فصل آخر</h5>
+              <h5>نقل الطالبة وسجلها إلى فصل آخر</h5>
               <div class="form">
-                <select id="transferTarget"><option value="">اختر الفصل المستهدف</option></select>
-                <button class="btn block" style="background:var(--accent)" onclick="transferSelected()">نقل الطالب</button>
+                <select id="transferTarget"><option value="">اختاري الفصل المستهدف</option></select>
+                <button class="btn block" style="background:var(--accent)" onclick="transferSelected()">نقل الطالبة</button>
               </div>
             </div>
  
@@ -779,15 +779,15 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
             <div class="sub-panel noprint">
               <h5>إشعار ولي الأمر بالدرس</h5>
               <div class="hint">الجوال: <span id="sdPhone" style="direction:ltr;display:inline-block">لا يوجد</span></div>
-              <select id="selectLesson" onchange="updateLessonMsg()" style="margin-top:8px"><option value="">اختر الدرس</option></select>
-              <div id="lessonMsgPreview" class="preview">اختر الدرس لتظهر الرسالة.</div>
+              <select id="selectLesson" onchange="updateLessonMsg()" style="margin-top:8px"><option value="">اختاري الدرس</option></select>
+              <div id="lessonMsgPreview" class="preview">اختاري الدرس لتظهر الرسالة.</div>
               <a id="waLessonBtn" href="#" target="_blank" class="btn wa block" onclick="return sendVia(this)">إرسال لولي الأمر</a>
             </div>
  
             <div class="sub-panel noprint">
               <h5>رسالة تشجيع وشكر</h5>
-              <select id="selectMotivation" onchange="updateMotivationMsg()"><option value="">اختر الرسالة</option></select>
-              <div id="motivationMsgPreview" class="preview">اختر الرسالة لعرض نصها.</div>
+              <select id="selectMotivation" onchange="updateMotivationMsg()"><option value="">اختاري الرسالة</option></select>
+              <div id="motivationMsgPreview" class="preview">اختاري الرسالة لعرض نصها.</div>
               <a id="waMotivBtn" href="#" target="_blank" class="btn wa block" onclick="return sendVia(this)">إرسال التشجيع</a>
               <div class="form" style="margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-strong)">
                 <input type="text" id="newMotivationTitle" placeholder="عنوان رسالة جديدة">
@@ -805,7 +805,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
       <div class="stack">
         <div class="panel noprint">
           <div class="panel-h"><h3>النسخ الاحتياطي</h3></div>
-          <p class="hint" style="margin-bottom:10px">بياناتك محفوظة في متصفح هذا الجهاز فقط. احفظ نسخة كاملة (كل الصفوف) لتنقلها إلى جهاز آخر أو تحميها من الضياع.</p>
+          <p class="hint" style="margin-bottom:10px">بياناتك محفوظة في متصفح هذا الجهاز فقط. احفظي نسخة كاملة (كل الصفوف) لتنقلها إلى جهاز آخر أو تحميها من الضياع.</p>
           <div class="btn-grid">
             <button class="btn" onclick="backupAll()">حفظ نسخة كاملة</button>
             <button class="btn warn" onclick="$('restoreFile').click()">استرجاع نسخة</button>
@@ -815,7 +815,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
  
         <div class="panel noprint">
           <div class="panel-h"><h3>الذكاء الاصطناعي (Gemini) لتوليد أسئلة الاختبارات</h3></div>
-          <p class="hint" style="margin-bottom:10px">أدخل مفتاح Gemini API الخاص بك ليقوم التصحيح الآلي بتوليد أسئلة جديدة تلقائياً: حسب محتوى الدرس المختار في الاختبارات الفصلية، أو حسب مجالات نافس الأربعة في اختبارات نافس، بدلاً من الاعتماد على نموذج ثابت من 10 أسئلة محفوظة.</p>
+          <p class="hint" style="margin-bottom:10px">أدخلي مفتاح Gemini API الخاص بك ليقوم التصحيح الآلي بتوليد أسئلة جديدة تلقائياً: حسب محتوى الدرس المختار في الاختبارات الفصلية، أو حسب مجالات نافس الأربعة في اختبارات نافس، بدلاً من الاعتماد على نموذج ثابت من 10 أسئلة محفوظة.</p>
           <div class="form">
             <input type="password" id="geminiApiKeyInput" placeholder="مفتاح Gemini API" autocomplete="off">
             <input type="text" id="geminiModelInput" placeholder="اسم النموذج (اختياري، افتراضي: gemini-2.5-flash)">
@@ -838,7 +838,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
           <div class="panel-h"><h3>التطبيق والدعم</h3></div>
           <div class="form">
             <button class="btn block" id="pwaInstallBtn" onclick="installPWA()">تثبيت اللوحة على الشاشة الرئيسية</button>
-            <a class="btn wa block" href="https://wa.me/966581015002" target="_blank">تواصل مع الدعم الفني</a>
+            <a class="btn wa block" href="https://wa.me/966581015002" target="_blank">تواصلي مع الدعم الفني</a>
           </div>
         </div>
  
@@ -856,7 +856,7 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
       <button class="tab active" data-view="home" onclick="showView('home')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-25 12 12)"/></svg>المدار</button>
       <button class="tab" data-view="students" onclick="showView('students')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.5 0 4.5 2 4.5 4.5"/></svg>الطلاب</button>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.5 0 4.5 2 4.5 4.5"/></svg>الطالبات</button>
       <button class="tab" data-view="lessons" onclick="showView('lessons')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M4 5.5v16M9 8h7"/></svg>الدروس</button>
       <button class="tab" data-view="grade" onclick="showView('grade')">
@@ -872,9 +872,9 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
 <div id="installHelp" class="modal" hidden onclick="if(event.target===this)this.hidden=true">
   <div class="modal-c">
     <h3 style="font-size:17px;margin-bottom:8px">تثبيت اللوحة كتطبيق</h3>
-    <p class="hint" style="margin-bottom:10px">لم يعرض المتصفح نافذة التثبيت تلقائياً. ثبّتها يدوياً:</p>
-    <p style="font-size:14px;margin-bottom:8px"><b>أندرويد (كروم):</b> اضغط النقاط الثلاث ⋮ ثم "تثبيت التطبيق" أو "إضافة إلى الشاشة الرئيسية".</p>
-    <p style="font-size:14px;margin-bottom:14px"><b>آيفون (سفاري):</b> اضغط زر المشاركة ثم "إضافة إلى الشاشة الرئيسية".</p>
+    <p class="hint" style="margin-bottom:10px">لم يعرض المتصفح نافذة التثبيت تلقائياً. ثبّتيها يدوياً:</p>
+    <p style="font-size:14px;margin-bottom:8px"><b>أندرويد (كروم):</b> اضغطي النقاط الثلاث ⋮ ثم "تثبيت التطبيق" أو "إضافة إلى الشاشة الرئيسية".</p>
+    <p style="font-size:14px;margin-bottom:14px"><b>آيفون (سفاري):</b> اضغطي زر المشاركة ثم "إضافة إلى الشاشة الرئيسية".</p>
     <button class="btn block" onclick="$('installHelp').hidden=true">حسناً</button>
   </div>
 </div>
@@ -882,8 +882,8 @@ input[type=file]{width:100%;padding:9px;border-radius:10px;border:1px solid var(
   <div class="modal-c">
     <h3 style="font-size:17px;margin-bottom:8px">رسالة تشجيع: <span id="qmName"></span></h3>
     <select id="qmSelect" onchange="updateQuickMotiv()"></select>
-    <textarea id="qmCustom" rows="3" placeholder="أو اكتب رسالتك الخاصة هنا" oninput="updateQuickMotiv()" style="margin-top:8px"></textarea>
-    <div id="qmPreview" class="preview">اختر الرسالة لعرض نصها.</div>
+    <textarea id="qmCustom" rows="3" placeholder="أو اكتبي رسالتك الخاصة هنا" oninput="updateQuickMotiv()" style="margin-top:8px"></textarea>
+    <div id="qmPreview" class="preview">اختاري الرسالة لعرض نصها.</div>
     <a id="qmSend" href="#" target="_blank" class="btn wa block" onclick="return sendQuickMotiv(this)">إرسال التشجيع</a>
     <button class="btn ghost block" style="margin-top:8px" onclick="$('motivModal').hidden=true">إغلاق</button>
   </div>
@@ -918,8 +918,8 @@ window.addEventListener('error', function(e){
 const $ = id => document.getElementById(id);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const reduceMotion = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-const TEACHER_NAME = "منصور عامر الرحيلي";
-const SCHOOL_NAME = "مدرسة داوود بن عروة الثقفي";
+const TEACHER_NAME = "تهاني مهنا الحجيلي";
+const SCHOOL_NAME = "الابتدائية الأولى للبنات بالمدينة";
  
 /* ================= خلفية النجوم ================= */
 (function stars(){
@@ -974,9 +974,9 @@ function setLockMode(mode){
   $('pw2').hidden = mode !== 'setup';
   $('pw1').value = ''; $('pw2').value = '';
   $('lockMsg').textContent = ''; $('lockMsg').className = 'lock-msg';
-  $('pw1').placeholder = mode === 'setup' ? 'أنشئ رقماً سرياً (4 خانات على الأقل)' : 'الرقم السري';
+  $('pw1').placeholder = mode === 'setup' ? 'أنشئي رقماً سرياً (4 خانات على الأقل)' : 'الرقم السري';
   $('lockBtn').textContent = mode === 'setup' ? 'إنشاء الرقم السري والدخول' : 'دخول';
-  $('lockSub').textContent = mode === 'setup' ? 'أول مرة؟ اختر الرقم السري الذي يحمي لوحتك' : 'مدرسة داوود بن عروة الثقفي';
+  $('lockSub').textContent = mode === 'setup' ? 'أول مرة؟ اختاري الرقم السري الذي يحمي لوحتك' : 'الابتدائية الأولى للبنات بالمدينة';
   setTimeout(() => $('pw1').focus(), 50);
 }
 function lockMsg(t, ok){ $('lockMsg').textContent = t; $('lockMsg').className = 'lock-msg' + (ok ? ' ok' : ''); }
@@ -986,19 +986,19 @@ async function submitLock(){
   const p1 = $('pw1').value;
   if(lockMode === 'setup'){
     if(p1.length < 4){ lockMsg('الرقم السري يجب أن لا يقل عن 4 خانات'); shakeLock(); return; }
-    if(p1 !== $('pw2').value){ lockMsg('الرقمان غير متطابقين، أعد الكتابة'); shakeLock(); return; }
+    if(p1 !== $('pw2').value){ lockMsg('الرقمان غير متطابقين، أعيدي الكتابة'); shakeLock(); return; }
     const salt = newSalt(), h = await hashPw(p1, salt);
     localStorage.setItem(PW_SALT, salt); localStorage.setItem(PW_KEY, h);
     finishUnlock(h);
     return;
   }
   const now = Date.now();
-  if(now < lockedUntil){ lockMsg(`محاولات كثيرة. انتظر ${Math.ceil((lockedUntil-now)/1000)} ثانية`); return; }
+  if(now < lockedUntil){ lockMsg(`محاولات كثيرة. انتظري ${Math.ceil((lockedUntil-now)/1000)} ثانية`); return; }
   const h = await hashPw(p1, localStorage.getItem(PW_SALT) || '');
   if(h === localStorage.getItem(PW_KEY)){ failCount = 0; finishUnlock(h); }
   else{
     failCount++;
-    if(failCount >= 5){ lockedUntil = Date.now() + 30000; failCount = 0; lockMsg('محاولات كثيرة. انتظر 30 ثانية'); }
+    if(failCount >= 5){ lockedUntil = Date.now() + 30000; failCount = 0; lockMsg('محاولات كثيرة. انتظري 30 ثانية'); }
     else lockMsg('الرقم السري غير صحيح');
     $('pw1').value = ''; shakeLock();
   }
@@ -1179,7 +1179,7 @@ function updateClock(){
       setClock('الحصة القادمة', p.period, p.className, `${start-cur} د`, 0); return;
     }
   }
-  setClock('انتهى الدوام','أحسنت اليوم','','—',0);
+  setClock('انتهى الدوام','أحسنتِ اليوم','','—',0);
 }
  
 /* ================= البيانات ================= */
@@ -1233,16 +1233,16 @@ const gradeScienceData = {
     {chapter:"الوحدة 6: الكهرباء والمغناطيسية",title:"الدوائر الكهربائية والتيار والمغناطيس",desc:"الدوائر الكهربائية، التيار، المغناطيس والمولدات الكهربائية."}]
 };
 const defaultMotivations = [
-  {id:"1",title:"1. عالم المستقبل المتميز",text:"🌟 عالم المستقبل المتميز 🌟\nعزيزي ولي الأمر، نفخر اليوم بتميز ابنكم وتألقه في حصة العلوم ومشاركته في التجارب العملية بحماس ونشاط. بوركت جهودكم!"},
-  {id:"2",title:"2. تفوق ملحوظ في الملاحظة والاستنتاج",text:"🔬 تفوق ملحوظ في الملاحظة العلمية 🔬\nعزيزي ولي الأمر، أظهر ابنكم اليوم مهارات دقيقة في الملاحظة والتجريب واستنباط النتائج. أحسنت صنعاً!"},
-  {id:"3",title:"3. دقة وإتقان في المفاهيم العلمية",text:"🌱 دقة وإتقان في المفاهيم والعلوم 🌱\nعزيزي ولي الأمر، تميز ابنكم اليوم باستيعابه العميق للحقائق العلمية وتوظيفها بذكاء. بارك الله في جهوده!"},
-  {id:"4",title:"4. مشاركة نشطة وفعالة في حصة العلوم",text:"✋ مشاركة نشطة وتفاعل علمي متميز ✋\nعزيزي ولي الأمر، تميز ابنكم اليوم بحرصه العالي ومشاركته النشطة وإجاباته العلمية الموفقة داخل الصف."},
-  {id:"5",title:"5. حصيلة استكشافية وتجارب ممتازة",text:"🧠 حصيلة استكشافية وتجارب ممتازة 🧠\nعزيزي ولي الأمر، أبدع ابنكم اليوم في تنفيذ التجارب الاستهلالية والاستكشافية بمهارة عالية. مبروك له!"},
-  {id:"6",title:"6. تنظيم رائع للدفتر وواجبات مرتبة",text:"📝 تنظيم رائع للواجبات والأنشطة 📝\nعزيزي ولي الأمر، نشكر لكم متابعتكم المنزلية الواعية. لقد كان واجب ابنكم اليوم منظماً، دقيقاً، ومرتباً للغاية."},
-  {id:"7",title:"7. حل ممتاز للتدريبات والتقويم",text:"✍️ حل ممتاز للتقويم والتدريبات\nعزيزي ولي الأمر، تميز أداء ابنكم اليوم بحل أسئلة التقويم والتدريبات العلمية بدقة عالية. دمت متميزاً يا بطل!"},
-  {id:"8",title:"8. اهتمام رائع بالبيئة ومخلوقات الله",text:"🌍 اهتمام رائع بالبيئة والمحيط\nعزيزي ولي الأمر، أظهر ابنكم اليوم شغفاً واهتماماً لافتاً بدراسة الكائنات الحية وعناصر البيئة من حوله."},
-  {id:"9",title:"9. مشروع علمي متميز ومبتكر",text:"🛠️ مشروع علمي متميز ومبتكر ومتقن\nعزيزي ولي الأمر، قدم ابنكم اليوم مشروعاً علمياً رائعاً ومنظماً ينم عن تفكير إبداعي ومهارة عالية."},
-  {id:"10",title:"10. اجتهاد وحرص على إتقان العلوم",text:"⭐ اجتهاد وحرص عالٍ على إتقان العلوم\nعزيزي ولي الأمر، إن حرص ابنكم المستمر على الاستكشاف والتعلم في مادة العلوم محل تقديرنا الدائم."}
+  {id:"1",title:"1. عالمة المستقبل المتميزة",text:"🌟 عالمة المستقبل المتميزة 🌟\nعزيزي ولي الأمر، نفخر اليوم بتميز ابنتكم وتألقها في حصة العلوم ومشاركتها في التجارب العملية بحماس ونشاط. بوركت جهودكم!"},
+  {id:"2",title:"2. تفوق ملحوظ في الملاحظة والاستنتاج",text:"🔬 تفوق ملحوظ في الملاحظة العلمية 🔬\nعزيزي ولي الأمر، أظهرت ابنتكم اليوم مهارات دقيقة في الملاحظة والتجريب واستنباط النتائج. أحسنتِ صنعاً!"},
+  {id:"3",title:"3. دقة وإتقان في المفاهيم العلمية",text:"🌱 دقة وإتقان في المفاهيم والعلوم 🌱\nعزيزي ولي الأمر، تميزت ابنتكم اليوم باستيعابها العميق للحقائق العلمية وتوظيفها بذكاء. بارك الله في جهودها!"},
+  {id:"4",title:"4. مشاركة نشطة وفعالة في حصة العلوم",text:"✋ مشاركة نشطة وتفاعل علمي متميز ✋\nعزيزي ولي الأمر، تميزت ابنتكم اليوم بحرصها العالي ومشاركتها النشطة وإجاباتها العلمية الموفقة داخل الصف."},
+  {id:"5",title:"5. حصيلة استكشافية وتجارب ممتازة",text:"🧠 حصيلة استكشافية وتجارب ممتازة 🧠\nعزيزي ولي الأمر، أبدعت ابنتكم اليوم في تنفيذ التجارب الاستهلالية والاستكشافية بمهارة عالية. مبروك لها!"},
+  {id:"6",title:"6. تنظيم رائع للدفتر وواجبات مرتبة",text:"📝 تنظيم رائع للواجبات والأنشطة 📝\nعزيزي ولي الأمر، نشكر لكم متابعتكم المنزلية الواعية. لقد كان واجب ابنتكم اليوم منظماً، دقيقاً، ومرتباً للغاية."},
+  {id:"7",title:"7. حل ممتاز للتدريبات والتقويم",text:"✍️ حل ممتاز للتقويم والتدريبات\nعزيزي ولي الأمر، تميز أداء ابنتكم اليوم بحل أسئلة التقويم والتدريبات العلمية بدقة عالية. دمتِ متميزةً يا بطلة!"},
+  {id:"8",title:"8. اهتمام رائع بالبيئة ومخلوقات الله",text:"🌍 اهتمام رائع بالبيئة والمحيط\nعزيزي ولي الأمر، أظهرت ابنتكم اليوم شغفاً واهتماماً لافتاً بدراسة الكائنات الحية وعناصر البيئة من حوله."},
+  {id:"9",title:"9. مشروع علمي متميز ومبتكر",text:"🛠️ مشروع علمي متميز ومبتكر ومتقن\nعزيزي ولي الأمر، قدمت ابنتكم اليوم مشروعاً علمياً رائعاً ومنظماً ينم عن تفكير إبداعي ومهارة عالية."},
+  {id:"10",title:"10. اجتهاد وحرص على إتقان العلوم",text:"⭐ اجتهاد وحرص عالٍ على إتقان العلوم\nعزيزي ولي الأمر، إن حرص ابنتكم المستمر على الاستكشاف والتعلم في مادة العلوم محل تقديرنا الدائم."}
 ];
 const K = {
   lessons:  () => 'mansour_custom_lessons_science_' + currentGrade + '_v5',
@@ -1300,10 +1300,10 @@ function changeGradeLevel(grade){
 function renderLessons(){
   const opt = (v,t) => `<option value="${v}">${esc(t)}</option>`;
   const lessonOpts = lessons.map((l,i) => opt(i, `[${l.chapter}] ${l.title}`)).join('');
-  $('curriculumSelect').innerHTML = opt('', 'اختر درساً للاطلاع على تفاصيله') + lessonOpts;
-  $('selectLesson').innerHTML = opt('', 'اختر الدرس') + lessonOpts;
-  $('bulkLesson').innerHTML = opt('', 'اختر درس الواجب') + lessons.map((l,i) => opt('lesson-' + i, `[${l.chapter}] ${l.title}`)).join('');
-  $('selectMotivation').innerHTML = opt('', 'اختر الرسالة') + customMotivations.map((m,i) => opt('motiv-' + i, m.title)).join('');
+  $('curriculumSelect').innerHTML = opt('', 'اختاري درساً للاطلاع على تفاصيله') + lessonOpts;
+  $('selectLesson').innerHTML = opt('', 'اختاري الدرس') + lessonOpts;
+  $('bulkLesson').innerHTML = opt('', 'اختاري درس الواجب') + lessons.map((l,i) => opt('lesson-' + i, `[${l.chapter}] ${l.title}`)).join('');
+  $('selectMotivation').innerHTML = opt('', 'اختاري الرسالة') + customMotivations.map((m,i) => opt('motiv-' + i, m.title)).join('');
   $('lessonDetail').hidden = true;
  
   let html = '', lastCh = null, done = 0;
@@ -1314,7 +1314,7 @@ function renderLessons(){
       <div class="acts"><button class="btn sm ${ex ? 'good' : 'warn'}" onclick="toggleLessonStatus(${i})">${ex ? 'منفَّذ' : 'قيد الانتظار'}</button>
       <button class="btn sm danger" onclick="deleteLesson(${i})">حذف</button></div></div>`;
   });
-  $('lessonsTimeline').innerHTML = html || '<div class="empty">لا توجد دروس. أضف درساً من الأسفل.</div>';
+  $('lessonsTimeline').innerHTML = html || '<div class="empty">لا توجد دروس. أضيفي درساً من الأسفل.</div>';
   $('totalExecutedLessons').textContent = `${done} / ${lessons.length}`;
   $('barLessons').style.width = (lessons.length ? done/lessons.length*100 : 0) + '%';
   renderMasteryDropdown();
@@ -1328,14 +1328,14 @@ function onCurriculumChange(i){
 function toggleLessonStatus(i){ lessonStatus[i] = !lessonStatus[i]; saveStatus(); renderLessons(); showToast('تم تحديث حالة الدرس'); }
 function addNewLesson(){
   const title = $('newLessonTitle').value.trim(), desc = $('newLessonDesc').value.trim();
-  if(!title){ alert('اكتب عنوان الدرس'); return; }
+  if(!title){ alert('اكتبي عنوان الدرس'); return; }
   lessons.push({chapter:'', title, desc: desc || 'لا توجد تفاصيل إضافية'}); saveLessons();
   $('newLessonTitle').value = ''; $('newLessonDesc').value = '';
   renderLessons(); showToast('تمت إضافة الدرس');
 }
 function addBatchLessons(){
   const t = $('bulkLessonsInput').value.trim();
-  if(!t){ alert('أدخل بيانات الدروس'); return; }
+  if(!t){ alert('أدخلي بيانات الدروس'); return; }
   let n = 0;
   t.split('\n').forEach(line => {
     if(!line.trim()) return;
@@ -1372,28 +1372,28 @@ renderStudents(); renderClasses(); renderMasteryTable(); renderExamsTable(); ren
   if(selectedStudentIndex !== '' && students[selectedStudentIndex]) fillStudentCard(selectedStudentIndex);
 }
  
-/* ================= الطلاب ================= */
+/* ================= الطالبات ================= */
 function addStudent(){
   const name = $('studentName').value.trim(), sClass = $('studentClassCustom').value.trim() || currentGrade, phone = $('studentPhone').value.trim();
-  if(!name){ alert('أدخل اسم الطالب'); return; }
+  if(!name){ alert('أدخلي اسم الطالبة'); return; }
   if(phone && !/^\d{10}$/.test(phone)){ alert('رقم الجوال يجب أن يكون 10 أرقام'); return; }
   students.push({name, classCustom:sClass, phone, absence:0, participation:0, homework:0, projects:0, messages:0, exam1:0, exam2:0});
   saveStudents(); $('studentName').value = ''; $('studentPhone').value = '';
-  render(); showToast('تمت إضافة الطالب');
+  render(); showToast('تمت إضافة الطالبة');
 }
 function renderStudents(){
   const box = $('studentsList'), q = $('filterStudentNameInput').value.trim().toLowerCase();
   let list;
   if(q) list = students.filter(s => s.name.toLowerCase().includes(q));
   else if(activeQueryClass === NONE){
-    box.innerHTML = '<div class="empty" style="grid-column:1/-1">اختر فصلاً من الأعلى أو ابحث بالاسم لعرض الطلاب.</div>';
+    box.innerHTML = '<div class="empty" style="grid-column:1/-1">اختاري فصلاً من الأعلى أو ابحثي بالاسم لعرض الطالبات.</div>';
     $('pageInfo').textContent = '0'; return;
   } else list = students.filter(s => clsOf(s) === activeQueryClass);
  
   const pages = Math.ceil(list.length / ROWS) || 1;
   if(currentPage > pages) currentPage = pages;
   const from = (currentPage-1)*ROWS, part = list.slice(from, from+ROWS);
-  if(!part.length){ box.innerHTML = '<div class="empty" style="grid-column:1/-1">لا يوجد طلاب مطابقون.</div>'; $('pageInfo').textContent = '0'; return; }
+  if(!part.length){ box.innerHTML = '<div class="empty" style="grid-column:1/-1">لا يوجد طالبات مطابقون.</div>'; $('pageInfo').textContent = '0'; return; }
  
   const stepper = (cls, label, gi, f, v) => `<div class="metric ${cls}"><div class="m-l">${label}</div><div class="stepper">
     <button aria-label="إنقاص" onclick="stepField(${gi},'${f}',-1)">−</button><b>${v||0}</b><button aria-label="زيادة" onclick="stepField(${gi},'${f}',1)">+</button></div></div>`;
@@ -1430,25 +1430,25 @@ function reindexAfterRemoval(removeSet){
   lessonMastery = nm;
 }
 function deleteStudent(i){
-  if(!confirm('حذف هذا الطالب؟')) return;
+  if(!confirm('حذف هذا الطالبة؟')) return;
   reindexAfterRemoval(new Set([i]));
   students.splice(i,1);
   if(selectedStudentIndex === i){ selectedStudentIndex = ''; $('studentCard').hidden = true; }
   else if(selectedStudentIndex > i) selectedStudentIndex--;
-  saveStudents(); saveMastery(); render(); showToast('تم حذف الطالب');
+  saveStudents(); saveMastery(); render(); showToast('تم حذف الطالبة');
 }
 function renderClasses(){
   const set = new Set(); students.forEach(s => set.add(clsOf(s)));
   classList = Array.from(set);
   $('classList').innerHTML = classList.map((c,i) => `<div class="class-pill ${activeQueryClass === c ? 'active' : ''}">
     <button class="go" onclick="filterByClass(${i})">${esc(c)} (${students.filter(s => clsOf(s) === c).length})</button>
-    <button class="del" aria-label="حذف الفصل" onclick="deleteClass(${i})">حذف</button></div>`).join('') || '<span class="hint">لا توجد فصول بعد. أضف أول طالب.</span>';
+    <button class="del" aria-label="حذف الفصل" onclick="deleteClass(${i})">حذف</button></div>`).join('') || '<span class="hint">لا توجد فصول بعد. أضيفي أول طالبة.</span>';
   const opts = (first) => first + classList.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
   const keep = (id, html) => { const el = $(id), v = el.value; el.innerHTML = html; if(classList.includes(v) || v === 'ALL') el.value = v; };
-  keep('examClassSelect', opts('<option value="">اختر الفصل</option>'));
+  keep('examClassSelect', opts('<option value="">اختاري الفصل</option>'));
   keep('masteryClassSelect', opts('<option value="">كل الفصول</option>'));
   keep('bulkTargetClass', opts('<option value="ALL">كل الفصول</option>'));
-  keep('transferTarget', opts('<option value="">اختر الفصل المستهدف</option>'));
+  keep('transferTarget', opts('<option value="">اختاري الفصل المستهدف</option>'));
 }
 function filterByClass(i){
   const c = classList[i];
@@ -1457,7 +1457,7 @@ function filterByClass(i){
 }
 function deleteClass(i){
   const c = classList[i];
-  if(!confirm(`حذف جميع طلاب الفصل (${c})؟`)) return;
+  if(!confirm(`حذف جميع طالبات الفصل (${c})؟`)) return;
   const rm = new Set(); students.forEach((s,si) => { if(clsOf(s) === c) rm.add(si); });
   reindexAfterRemoval(rm);
   students = students.filter((s,si) => !rm.has(si));
@@ -1467,27 +1467,27 @@ function deleteClass(i){
 }
 function quickTransfer(i){
   const s = students[i];
-  const t = prompt(`اكتب اسم الفصل الجديد للطالب (المتاح: ${classList.join('، ')}):`, clsOf(s));
+  const t = prompt(`اكتبي اسم الفصل الجديد للطالبة (المتاح: ${classList.join('، ')}):`, clsOf(s));
   if(t && t.trim()){ s.classCustom = t.trim(); saveStudents(); render(); showToast(`تم نقل ${s.name} إلى ${s.classCustom}`); }
 }
  
 /* ================= الإتقان ================= */
 function renderMasteryDropdown(){
   const sel = $('masteryLessonSelect'), v = sel.value;
-  sel.innerHTML = '<option value="">اختر الدرس</option>' + lessons.map((l,i) => `<option value="${i}">${esc('[' + l.chapter + '] ' + l.title)}</option>`).join('');
+  sel.innerHTML = '<option value="">اختاري الدرس</option>' + lessons.map((l,i) => `<option value="${i}">${esc('[' + l.chapter + '] ' + l.title)}</option>`).join('');
   if(lessons[v]) sel.value = v;
 }
 function renderMasteryTable(){
   const li = $('masteryLessonSelect').value, cls = $('masteryClassSelect').value, tb = $('masteryTbody'), sum = $('masterySummary');
-  if(li === ''){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">اختر الدرس من القائمة.</td></tr>'; sum.hidden = true; return; }
+  if(li === ''){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">اختاري الدرس من القائمة.</td></tr>'; sum.hidden = true; return; }
   const list = cls ? students.filter(s => clsOf(s) === cls) : students;
-  if(!list.length){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">لا يوجد طلاب.</td></tr>'; sum.hidden = true; return; }
+  if(!list.length){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">لا يوجد طالبات.</td></tr>'; sum.hidden = true; return; }
   sum.hidden = false; let m = 0;
   tb.innerHTML = list.map(s => {
     const gi = students.indexOf(s), ok = !!(lessonMastery[gi] && lessonMastery[gi][li]); if(ok) m++;
     return `<tr><td><strong>${esc(s.name)}</strong></td><td><span class="tag">${esc(clsOf(s))}</span></td>
-      <td class="${ok ? 'st-ok' : 'st-re'}">${ok ? 'متقن' : 'مراجعة'}</td>
-      <td class="noprint"><button class="btn sm ${ok ? 'warn' : 'good'}" onclick="toggleMastery(${gi},${li})">${ok ? 'إلى مراجعة' : 'إلى متقن'}</button></td></tr>`;
+      <td class="${ok ? 'st-ok' : 'st-re'}">${ok ? 'متقنة' : 'مراجعة'}</td>
+      <td class="noprint"><button class="btn sm ${ok ? 'warn' : 'good'}" onclick="toggleMastery(${gi},${li})">${ok ? 'إلى مراجعة' : 'إلى متقنة'}</button></td></tr>`;
   }).join('');
   $('countMastered').textContent = m; $('countReview').textContent = list.length - m;
 }
@@ -1504,13 +1504,13 @@ function avgExams(list){
 }
 function renderExamsTable(){
   const cls = $('examClassSelect').value, tb = $('examsTbody'), box = $('examsAnalysis');
-  if(!cls){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">اختر الفصل من القائمة.</td></tr>'; box.hidden = true; return; }
+  if(!cls){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">اختاري الفصل من القائمة.</td></tr>'; box.hidden = true; return; }
   const list = students.filter(s => clsOf(s) === cls);
-  if(!list.length){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">لا يوجد طلاب في هذا الفصل.</td></tr>'; box.hidden = true; return; }
+  if(!list.length){ tb.innerHTML = '<tr><td colspan="4" class="hint" style="padding:16px">لا يوجد طالبات في هذا الفصل.</td></tr>'; box.hidden = true; return; }
   box.hidden = false;
   tb.innerHTML = list.map(s => {
     const gi = students.indexOf(s);
-    const msg = `عزيزي ولي أمر الطالب ${s.name}، نود إفادتكم بدرجات اختبارات مادة العلوم:\n- اختبار الفترة الأولى: ${s.exam1||0}/20\n- اختبار الفترة الثانية: ${s.exam2||0}/20\nمع تمنياتنا له بدوام التوفيق والنجاح.`;
+    const msg = `عزيزي ولي أمر الطالبة ${s.name}، نود إفادتكم بدرجات اختبارات مادة العلوم:\n- اختبار الفترة الأولى: ${s.exam1||0}/20\n- اختبار الفترة الثانية: ${s.exam2||0}/20\nمع تمنياتنا له بدوام التوفيق والنجاح.`;
     return `<tr><td><strong>${esc(s.name)}</strong></td>
       <td><input class="score" type="text" inputmode="numeric" value="${s.exam1||0}" oninput="updateExam(${gi},'exam1',this)"></td>
       <td><input class="score" type="text" inputmode="numeric" value="${s.exam2||0}" oninput="updateExam(${gi},'exam2',this)"></td>
@@ -1524,7 +1524,7 @@ function updateExam(i, f, el){
   const cls = $('examClassSelect').value; if(cls) avgExams(students.filter(s => clsOf(s) === cls));
 }
  
-/* ================= ملف الطالب والرسائل ================= */
+/* ================= ملف الطالبة والرسائل ================= */
 function filterStudentDropdown(){
   const k = $('studentSearchInput').value.trim().toLowerCase(), box = $('studentDropdown');
   if(!k){ box.style.display = 'none'; return; }
@@ -1549,40 +1549,40 @@ function fillStudentCard(i){
 }
 function transferSelected(){
   if(selectedStudentIndex === '') return;
-  const t = $('transferTarget').value; if(!t){ alert('اختر الفصل المستهدف'); return; }
+  const t = $('transferTarget').value; if(!t){ alert('اختاري الفصل المستهدف'); return; }
   students[selectedStudentIndex].classCustom = t; saveStudents(); render();
-  showToast(`تم نقل الطالب إلى ${t}`);
+  showToast(`تم نقل الطالبة إلى ${t}`);
 }
 function updateLessonMsg(){
   if(selectedStudentIndex === '') return;
   const s = students[selectedStudentIndex], li = $('selectLesson').value, pv = $('lessonMsgPreview'), btn = $('waLessonBtn');
-  if(li === ''){ pv.textContent = 'اختر الدرس لتظهر الرسالة.'; btn.href = '#'; return; }
+  if(li === ''){ pv.textContent = 'اختاري الدرس لتظهر الرسالة.'; btn.href = '#'; return; }
   const l = lessons[li];
-  const msg = `عزيزي ولي أمر الطالب / ${s.name}\nنحيطكم علماً بأننا تناولنا اليوم في مادة العلوم درس:\n📘 (${l.chapter}) - ${l.title}\n💡 المفاهيم والتجارب المرتبطة: ${l.desc}\nنرجو منكم متابعة ابنكم وتعزيز استكشافاته العلمية.\nمع تقديرنا، المعلم: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
+  const msg = `عزيزي ولي أمر الطالبة / ${s.name}\nنحيطكم علماً بأننا تناولنا اليوم في مادة العلوم درس:\n📘 (${l.chapter}) - ${l.title}\n💡 المفاهيم والتجارب المرتبطة: ${l.desc}\nنرجو منكم متابعة ابنتكم وتعزيز استكشافاتها العلمية.\nمع تقديرنا، المعلمة: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
   pv.textContent = msg; btn.href = waLink(s.phone, msg);
 }
 function updateMotivationMsg(){
   if(selectedStudentIndex === '') return;
   const s = students[selectedStudentIndex], v = $('selectMotivation').value, pv = $('motivationMsgPreview'), btn = $('waMotivBtn');
-  if(v === ''){ pv.textContent = 'اختر الرسالة لعرض نصها.'; btn.href = '#'; return; }
+  if(v === ''){ pv.textContent = 'اختاري الرسالة لعرض نصها.'; btn.href = '#'; return; }
   const text = customMotivations[v.split('-')[1]].text;
-  const msg = `إلى ولي أمر الطالب / ${s.name}\n\n${text}\n\nمع خالص الشكر، المعلم: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
+  const msg = `إلى ولي أمر الطالبة / ${s.name}\n\n${text}\n\nمع خالص الشكر، المعلمة: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
   pv.textContent = msg; btn.href = waLink(s.phone, msg);
 }
 function sendVia(a){
-  if(a.getAttribute('href') === '#'){ alert('اختر الرسالة أولاً'); return false; }
+  if(a.getAttribute('href') === '#'){ alert('اختاري الرسالة أولاً'); return false; }
   bumpMessages(selectedStudentIndex); return true;
 }
 function sendFullReport(){
   if(selectedStudentIndex === '') return;
   const s = students[selectedStudentIndex];
-  const msg = `عزيزي ولي أمر الطالب / ${s.name} (${clsOf(s)})\nنحيطكم علماً بمستوى ابنكم وتقييمه في مادة العلوم حتى تاريخه:\n\n- المشاركات: ${s.participation||0}\n- الواجبات: ${s.homework||0}\n- أيام الغياب: ${s.absence||0}\n- الدروس المتقنة: ${masteredCount(selectedStudentIndex)} من ${lessons.length}\n- التجارب: ${s.projects||0}\n- اختبار الفترة الأولى: ${s.exam1||0}/20\n- اختبار الفترة الثانية: ${s.exam2||0}/20\n\nنشكر تعاونكم المستمر.\nمع تقديرنا، المعلم: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
+  const msg = `عزيزي ولي أمر الطالبة / ${s.name} (${clsOf(s)})\nنحيطكم علماً بمستوى ابنتكم وتقييمها في مادة العلوم حتى تاريخه:\n\n- المشاركات: ${s.participation||0}\n- الواجبات: ${s.homework||0}\n- أيام الغياب: ${s.absence||0}\n- الدروس المتقنة: ${masteredCount(selectedStudentIndex)} من ${lessons.length}\n- التجارب: ${s.projects||0}\n- اختبار الفترة الأولى: ${s.exam1||0}/20\n- اختبار الفترة الثانية: ${s.exam2||0}/20\n\nنشكر تعاونكم المستمر.\nمع تقديرنا، المعلمة: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
   bumpMessages(selectedStudentIndex);
   window.open(waLink(s.phone, msg), '_blank');
 }
 function addNewMotivation(){
   const t = $('newMotivationTitle').value.trim(), x = $('newMotivationText').value.trim();
-  if(!t || !x){ alert('اكتب عنوان الرسالة ونصها'); return; }
+  if(!t || !x){ alert('اكتبي عنوان الرسالة ونصها'); return; }
   customMotivations.push({id:Date.now().toString(), title:t, text:x});
   localStorage.setItem(K.motiv, JSON.stringify(customMotivations));
   $('newMotivationTitle').value = ''; $('newMotivationText').value = '';
@@ -1597,7 +1597,7 @@ function bumpMessages(i){
  function openMotiv(gi){
   qmIndex = gi;
   $('qmName').textContent = students[gi].name;
-  var h = '<option value="">اختر الرسالة</option>';
+  var h = '<option value="">اختاري الرسالة</option>';
   for(var i = 0; i < customMotivations.length; i++){
     h += '<option value="' + i + '">' + esc(customMotivations[i].title) + '</option>';
   }
@@ -1610,12 +1610,12 @@ function updateQuickMotiv(){
   var pv = $('qmPreview'), btn = $('qmSend'), body = '';
   if(c){ body = c; }
   else if(v !== ''){ body = customMotivations[v].text; }
-  if(!body){ pv.textContent = 'اختر رسالة أو اكتب رسالتك.'; btn.href = '#'; return; }
-  var msg = 'إلى ولي أمر الطالب / ' + s.name + '\n\n' + body + '\n\nمع خالص الشكر، المعلم: ' + TEACHER_NAME + ' - ' + SCHOOL_NAME;
+  if(!body){ pv.textContent = 'اختاري رسالة أو اكتبي رسالتك.'; btn.href = '#'; return; }
+  var msg = 'إلى ولي أمر الطالبة / ' + s.name + '\n\n' + body + '\n\nمع خالص الشكر، المعلمة: ' + TEACHER_NAME + ' - ' + SCHOOL_NAME;
   pv.textContent = msg; btn.href = waLink(s.phone, msg);
 }
 function sendQuickMotiv(a){
-  if(a.getAttribute('href') === '#'){ alert('اختر الرسالة أولاً'); return false; }
+  if(a.getAttribute('href') === '#'){ alert('اختاري الرسالة أولاً'); return false; }
   bumpMessages(qmIndex); return true;
 }
   function renderAttention(){
@@ -1631,14 +1631,14 @@ function sendQuickMotiv(a){
    
     if(s.exam2 > 0 && s.exam2 < 10){ r.push('درجة ' + s.exam2 + '/20'); sc += 3; }
     if(sc >= 2){
-      if((Number(s.messages) || 0) === 0) r.push('لم تصله رسالة');
+      if((Number(s.messages) || 0) === 0) r.push('لم تصلها رسالة');
       rows.push({gi: gi, s: s, r: r, sc: sc});
     }
   });
   rows.sort(function(a, b){ return b.sc - a.sc; });
-  $('attnCount').textContent = rows.length ? (rows.length + ' طالب') : '';
+  $('attnCount').textContent = rows.length ? (rows.length + ' طالبة') : '';
   if(!rows.length){
-    box.innerHTML = '<div class="empty">لا يوجد طلاب يحتاجون متابعة الآن. أحسنت!</div>';
+    box.innerHTML = '<div class="empty">لا يوجد طالبات يحتجن متابعة الآن. أحسنتِ!</div>';
     return;
   }
   var h = '';
@@ -1659,13 +1659,13 @@ function sendQuickMotiv(a){
     var p = Number(students[i].participation);
     if(p <= 1){ rows.push(i); }
   }
-  $('silentCount').textContent = rows.length + ' طالب';
+  $('silentCount').textContent = rows.length + ' طالبة';
   if(students.length === 0){
-    box.innerHTML = '<div class="empty">لا يوجد طلاب.</div>';
+    box.innerHTML = '<div class="empty">لا يوجد طالبات.</div>';
     return;
   }
   if(rows.length === 0){
-    box.innerHTML = '<div class="empty">كل الطلاب شاركوا. أحسنت!</div>';
+    box.innerHTML = '<div class="empty">كل الطالبات شاركن. أحسنتِ!</div>';
     return;
   }
   var h = '';
@@ -1688,11 +1688,11 @@ function sendQuickMotiv(a){
   }
   $('fairCount').textContent = rows.length + ' من ' + students.length;
   if(students.length === 0){
-    box.innerHTML = '<div class="empty">لا يوجد طلاب.</div>';
+    box.innerHTML = '<div class="empty">لا يوجد طالبات.</div>';
     return;
   }
   if(rows.length === 0){
-    box.innerHTML = '<div class="empty">وصلت رسالة لكل طالب. أحسنت!</div>';
+    box.innerHTML = '<div class="empty">وصلت رسالة لكل طالبة. أحسنتِ!</div>';
     return;
   }
   var h = '';
@@ -1700,7 +1700,7 @@ function sendQuickMotiv(a){
     var gi = rows[k];
     var s = students[gi];
     h += '<div class="send-row"><span><strong>' + esc(s.name) + '</strong><br>';
-    h += '<span class="hint">لم تصله رسالة بعد</span></span>';
+    h += '<span class="hint">لم تصلها رسالة بعد</span></span>';
     h += '<button class="btn sm warn" onclick="openMotiv(' + gi + ')">تشجيع</button></div>';
   }
   box.innerHTML = h;
@@ -1720,14 +1720,14 @@ function renderQuick(){
   var box = $('quickList');
   var sel = $('quickClass');
   if(!box || !sel){ return; }
-  var o = '<option value="">اختر الفصل</option>';
+  var o = '<option value="">اختاري الفصل</option>';
   for(var c = 0; c < classList.length; c++){
     o += '<option value="' + esc(classList[c]) + '">' + esc(classList[c]) + '</option>';
   }
   sel.innerHTML = o;
   sel.value = qkClass;
   if(sel.value === ''){
-    box.innerHTML = '<div class="empty">اختر الفصل لبدء الحصة.</div>';
+    box.innerHTML = '<div class="empty">اختاري الفصل لبدء الحصة.</div>';
     return;
   }
   var h = '';
@@ -1740,12 +1740,12 @@ function renderQuick(){
     if(!(pa > 0)){ pa = 0; }
     h += '<div class="send-row" style="flex-wrap:wrap"><strong>' + esc(s.name) + '</strong>';
     h += '<span style="display:flex;gap:6px">';
-    h += '<button class="btn sm danger" onclick="qkAbs(' + i + ',1)">غائب ' + ab + '</button>';
+    h += '<button class="btn sm danger" onclick="qkAbs(' + i + ',1)">غائبة ' + ab + '</button>';
     h += '<button class="btn sm ghost" onclick="qkAbs(' + i + ',-1)">−</button>';
     h += '<button class="btn sm good" onclick="qkPar(' + i + ')">مشاركة ' + pa + '</button>';
     h += '</span></div>';
   }
-  if(h === ''){ h = '<div class="empty">لا يوجد طلاب في هذا الفصل.</div>'; }
+  if(h === ''){ h = '<div class="empty">لا يوجد طالبات في هذا الفصل.</div>'; }
   box.innerHTML = h;
 }
  var mqIndex = '';
@@ -1761,7 +1761,7 @@ function drawMastery(){
     var ok = !!(lessonMastery[mqIndex] && lessonMastery[mqIndex][li]);
     h += '<div class="send-row" style="margin-bottom:6px"><span>' + esc(lessons[li].title) + '</span>' +
       '<button class="btn sm ' + (ok ? 'good' : 'warn') + '" onclick="toggleMq(' + li + ')">' +
-      (ok ? 'متقن' : 'مراجعة') + '</button></div>';
+      (ok ? 'متقنة' : 'مراجعة') + '</button></div>';
   }
   $('mqList').innerHTML = h || '<div class="empty">لا توجد دروس.</div>';
 }
@@ -1782,19 +1782,19 @@ function bulkBase(){
   let m = `أولياء الأمور الأفاضل، نود إحاطتكم بأن واجب مادة العلوم للدرس:\n📘 (${l.chapter}) - ${l.title}\n`;
   m += d ? `📝 المطلوب حلّه: ${d}\n` : `📝 المطلوب: حل تدريبات وأسئلة الدرس في الكتاب المدرسي.\n`;
   if(n) m += `📌 ملاحظات: ${n}\n`;
-  return m + `\nنرجو الحرص على حل الواجب وإرساله في الموعد المحدد.\nمع خالص الشكر، المعلم: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
+  return m + `\nنرجو الحرص على حل الواجب وإرساله في الموعد المحدد.\nمع خالص الشكر، المعلمة: ${TEACHER_NAME} - ${SCHOOL_NAME}`;
 }
-function updateBulkPreview(){ $('bulkPreview').textContent = bulkBase() || 'اختر الدرس وأدخل تفاصيل الواجب لتظهر الرسالة هنا.'; }
+function updateBulkPreview(){ $('bulkPreview').textContent = bulkBase() || 'اختاري الدرس وأدخلي تفاصيل الواجب لتظهر الرسالة هنا.'; }
 function prepareBulk(){
-  const base = bulkBase(); if(!base){ alert('اختر درس الواجب أولاً'); return; }
+  const base = bulkBase(); if(!base){ alert('اختاري درس الواجب أولاً'); return; }
   const cls = $('bulkTargetClass').value;
   let list = cls === 'ALL' ? students : students.filter(s => clsOf(s) === cls);
   list = list.filter(s => s.phone && s.phone.trim());
-  if(!list.length){ alert('لا توجد أرقام جوال مسجلة للطلاب المستهدفين'); return; }
+  if(!list.length){ alert('لا توجد أرقام جوال مسجلة للطالبات المستهدفين'); return; }
   $('bulkList').innerHTML = list.map(s => {
     const gi = students.indexOf(s);
     return `<div class="send-row"><span><strong>${esc(s.name)}</strong> <span class="tag">${esc(clsOf(s))}</span></span>
-      <a class="btn sm wa" target="_blank" href="${waLink(s.phone, 'عزيزي ولي أمر الطالب / ' + s.name + '\n\n' + base)}" onclick="markSent(${gi},this)">إرسال</a></div>`;
+      <a class="btn sm wa" target="_blank" href="${waLink(s.phone, 'عزيزي ولي أمر الطالبة / ' + s.name + '\n\n' + base)}" onclick="markSent(${gi},this)">إرسال</a></div>`;
   }).join('');
   $('bulkPanel').hidden = false; showToast(`جاهزة روابط ${list.length} ولي أمر`);
 }
@@ -1802,7 +1802,7 @@ function markSent(i, el){ bumpMessages(i); el.textContent = 'تم'; el.style.bac
  
 /* ================= الطباعة ================= */
 function printSection(id){
-  if(id === 'paper' && !activeQuestions.length){ alert('ولّد ورقة الاختبار أولاً'); return; }
+  if(id === 'paper' && !activeQuestions.length){ alert('ولّدي ورقة الاختبار أولاً'); return; }
   document.querySelectorAll('.printing').forEach(e => e.classList.remove('printing'));
   $(id).classList.add('printing'); window.print();
 }
@@ -1811,9 +1811,9 @@ window.addEventListener('afterprint', () => document.querySelectorAll('.printing
 /* ================= Excel / CSV ================= */
 function exportExcel(){
   if(!students.length){ alert('لا توجد بيانات لتصديرها'); return; }
-  const rows = students.map((s,i) => ({"م":i+1,"اسم الطالب":s.name,"الصف":clsOf(s),"رقم الجوال":s.phone||'',"الغياب":s.absence||0,"المشاركة":s.participation||0,"الواجبات":s.homework||0,"التجارب":s.projects||0,"الرسائل":s.messages||0,"اختبار الفترة الأولى":s.exam1||0,"اختبار الفترة الثانية":s.exam2||0}));
+  const rows = students.map((s,i) => ({"م":i+1,"اسم الطالبة":s.name,"الصف":clsOf(s),"رقم الجوال":s.phone||'',"الغياب":s.absence||0,"المشاركة":s.participation||0,"الواجبات":s.homework||0,"التجارب":s.projects||0,"الرسائل":s.messages||0,"اختبار الفترة الأولى":s.exam1||0,"اختبار الفترة الثانية":s.exam2||0}));
   const ws = XLSX.utils.json_to_sheet(rows); ws['!views'] = [{rightToLeft:true}];
-  const wb = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, "سجل طلاب العلوم");
+  const wb = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, "سجل طالبات العلوم");
   XLSX.writeFile(wb, `سجل_العلوم_${currentGrade}.xlsx`); showToast('تم تصدير ملف Excel');
 }
 function downloadBlob(content, type, name){
@@ -1822,7 +1822,7 @@ function downloadBlob(content, type, name){
 }
 function exportCSV(){
   if(!students.length){ alert('لا توجد بيانات لتصديرها'); return; }
-  let csv = "\uFEFFاسم الطالب,الصف,رقم الجوال,الغياب,المشاركة,الواجبات,التجارب,اختبار 1,اختبار 2\n";
+  let csv = "\uFEFFاسم الطالبة,الصف,رقم الجوال,الغياب,المشاركة,الواجبات,التجارب,اختبار 1,اختبار 2\n";
   students.forEach(s => { csv += `"${String(s.name).replace(/"/g,'""')}","${String(clsOf(s)).replace(/"/g,'""')}","${s.phone||''}",${s.absence||0},${s.participation||0},${s.homework||0},${s.projects||0},${s.exam1||0},${s.exam2||0}\n`; });
   downloadBlob(csv, 'text/csv;charset=utf-8;', `GoogleSheets_${currentGrade}.csv`); showToast('تم التصدير');
 }
@@ -1836,7 +1836,7 @@ function importExcel(ev){
       if(!rows.length){ alert('ملف Excel فارغ أو غير مطابق'); return; }
       let n = 0;
       rows.forEach(w => {
-        const name = w["اسم الطالب"] || w["اسم الطالبة"] || w["الاسم"] || '';
+        const name = w["اسم الطالبة"] || w["اسم الطالب"] || w["الاسم"] || '';
         if(!String(name).trim()) return;
         students.push({
           name:String(name).trim(), classCustom:String(w["الصف"] || w["الصف/الشعبة"] || w["Class"] || currentGrade).trim(),
@@ -1846,7 +1846,7 @@ function importExcel(ev){
           exam1:Number(w["اختبار الفترة الأولى"]||0), exam2:Number(w["اختبار الفترة الثانية"]||0)
         }); n++;
       });
-      saveStudents(); render(); showToast(`تم استيراد ${n} طالب`);
+      saveStudents(); render(); showToast(`تم استيراد ${n} طالبة`);
     }catch(err){ console.error(err); alert('تعذّرت قراءة ملف Excel'); }
     finally{ ev.target.value = ''; }
   };
@@ -1871,7 +1871,7 @@ function restoreBackup(ev){
   r.onload = e => {
     try{
       const j = JSON.parse(e.target.result);
-      if(!confirm('سيتم استبدال البيانات الحالية بمحتوى النسخة. هل تريد المتابعة؟')) return;
+      if(!confirm('سيتم استبدال البيانات الحالية بمحتوى النسخة. هل تريدين المتابعة؟')) return;
       if(j && j.__mansour_backup && j.data){
         Object.keys(j.data).forEach(k => { if(k.startsWith('mansour_') && !SECRET_KEYS.includes(k)) localStorage.setItem(k, j.data[k]); });
       } else if(Array.isArray(j)){
@@ -1923,7 +1923,7 @@ const nafisQuestions = [
   {domain:"علوم الحياة",q:"ما المنطقة الحيوية الواسعة التي تتميز بقلة أمطارها وتنوع حياتها النباتية والحيوانية المتحملة للجفاف؟",options:["المنطقة القطبية","الصحراء","الغابة المطيرة","التندرا الباردة"],correctLetter:"ب"},
   {domain:"علوم الأرض والفضاء",q:"أي الأجرام السماوية التالية يقع في مركز المجموعة الشمسية تماماً؟",options:["كوكب الأرض","الشمس","كوكب المريخ","القمر"],correctLetter:"ب"},
   {domain:"العلوم الفيزيائية",q:"ما الحالة التي تكون فيها جزيئات المادة متراصة وقوية جداً وذات شكل ثابت؟",options:["حالة البلازما","الحالة السائلة","الحالة الصلبة","الحالة الغازية"],correctLetter:"ج"},
-  {domain:"الاستقصاء العلمي",q:"يريد طالب تحديد زمن تحلل أنواع مختلفة من الفواكه في التربة، فوضع قطعاً متساوية من الجزر والخيار والتفاح في أكياس بها نفس التربة. أي مما يلي يُعد 'المتغير المستقل' في هذه التجربة؟",options:["كتلة قطع الفواكه والخضروات","نوع الفواكه والخضروات (الجزر، الخيار، التفاح)","كمية التربة الرطبة في الأكياس","الزمن الكلي للتحلل"],correctLetter:"ب"},
+  {domain:"الاستقصاء العلمي",q:"يريد طالبة تحديد زمن تحلل أنواع مختلفة من الفواكه في التربة، فوضع قطعاً متساوية من الجزر والخيار والتفاح في أكياس بها نفس التربة. أي مما يلي يُعد 'المتغير المستقل' في هذه التجربة؟",options:["كتلة قطع الفواكه والخضروات","نوع الفواكه والخضروات (الجزر، الخيار، التفاح)","كمية التربة الرطبة في الأكياس","الزمن الكلي للتحلل"],correctLetter:"ب"},
   {domain:"العلوم الفيزيائية",q:"ما هي القوة غير المنظورة التي تسحب الأجسام نحو مركز كوكب الأرض؟",options:["قوة الجاذبية الأرضية","القوة الكهربائية","قوة المغناطيس","قوة الاحتكاك"],correctLetter:"أ"},
   {domain:"علوم الحياة",q:"يعيش طائران في موطن واحد، ويأكلان نفس الغذاء، إلا أن أحدهما ينشط في النهار والآخر في الليل. ماذا يسمى ذلك؟",options:["اختلاف الحيز البيئي للطائرين","اختلاف المنطقة الحيوية","توجد علاقة تكافل","توجد علاقة تنافس مدمرة"],correctLetter:"أ"},
   {domain:"العلوم الفيزيائية",q:"ماذا تسمى المنطقة المحيطة بالمغناطيس ويظهر فيها قوة تأثيره على المغناطيسات الأخرى؟",options:["المجال المغناطيسي","الكهرومغناطيسية","القوة المغناطيسية","خطوط القوة الوهمية"],correctLetter:"أ"}
@@ -1954,7 +1954,7 @@ function renderExamLessonChecklist(){
   const box = $('examLessonChecks'); if(!box) return;
   const grade = $('selectGrade').value, list = fetchLessonsForGrade(grade);
   box.innerHTML = list.map((l,i) => `<label class="check"><input type="checkbox" class="lesson-cb" value="${i}" checked>${esc(l.title)}</label>`).join('')
-    || '<span class="hint">لا توجد دروس مسجلة لهذا الصف بعد، أضِفها من تبويب "الدروس".</span>';
+    || '<span class="hint">لا توجد دروس مسجلة لهذا الصف بعد، أضيفيها من تبويب "الدروس".</span>';
 }
  
 /* ---- إعدادات Gemini ---- */
@@ -2006,11 +2006,11 @@ function buildGeminiPrompt(qCount){
     scopeText = `اعتمد فقط على محتوى الدروس التالية من مقرر ${subject} للصف ${grade}، ووزّع الأسئلة عليها، واجعل قيمة الحقل "domain" في كل سؤال هي عنوان الدرس الذي استُمد منه السؤال بالضبط:\n` +
       chosen.map(l => `- (${l.chapter || ''}) ${l.title}: ${l.desc}`).join('\n');
   }
-  return `أنت خبير في إعداد اختبارات ${subject} لطلاب المرحلة الابتدائية في المملكة العربية السعودية، للصف: ${grade}.
-المطلوب: توليد ${qCount} سؤالاً اختيارياً (اختيار من متعدد) جديداً ومختلفاً في كل مرة، بصيغة عربية فصحى واضحة ومناسبة لعمر الطلاب.
+  return `أنت خبير في إعداد اختبارات ${subject} لطالبات المرحلة الابتدائية في المملكة العربية السعودية، للصف: ${grade}.
+المطلوب: توليد ${qCount} سؤالاً اختيارياً (اختيار من متعدد) جديداً ومختلفاً في كل مرة، بصيغة عربية فصحى واضحة ومناسبة لعمر الطالبات.
 ${scopeText}
 لكل سؤال 4 خيارات فقط، وإجابة صحيحة واحدة، ولا تكرر نفس السؤال أو نفس الصياغة بين الأسئلة.
-أعد الناتج ككائن JSON (مصفوفة فقط) بدون أي نص أو شرح أو علامات ترميز إضافية، بالشكل التالي بالضبط:
+أعيدي الناتج ككائن JSON (مصفوفة فقط) بدون أي نص أو شرح أو علامات ترميز إضافية، بالشكل التالي بالضبط:
 [{"domain":"...","q":"نص السؤال","options":["الخيار الأول","الخيار الثاني","الخيار الثالث","الخيار الرابع"],"correctIndex":0}]
 حيث correctIndex رقم فهرس الإجابة الصحيحة داخل مصفوفة options (0 أو 1 أو 2 أو 3).`;
 }
@@ -2024,14 +2024,14 @@ function setAiStatus(text, kind){
 }
 async function generateQuestionsWithAI(qCount){
   if(!localStorage.getItem('mansour_gemini_api_key')){
-    setAiStatus('⚠️ لم يتم إدخال مفتاح Gemini API بعد. اذهب لصفحة "المزيد" وأدخل المفتاح واحفظه، ثم أعد التوليد. تم الآن استخدام نموذج احتياطي مؤقت.', 'warn');
+    setAiStatus('⚠️ لم يتم إدخال مفتاح Gemini API بعد. اذهبي لصفحة "المزيد" وأدخلي المفتاح واحفظه، ثم أعيدي التوليد. تم الآن استخدام نموذج احتياطي مؤقت.', 'warn');
     return false;
   }
   let prompt;
   try{ prompt = buildGeminiPrompt(qCount); }
   catch(e){
-    if(e.message === 'NO_DOMAIN'){ alert('اختر مجالاً واحداً على الأقل من مجالات نافس.'); }
-    else if(e.message === 'NO_LESSON'){ alert('اختر درساً واحداً على الأقل من قائمة "الدروس المستهدفة بالاختبار".'); }
+    if(e.message === 'NO_DOMAIN'){ alert('اختاري مجالاً واحداً على الأقل من مجالات نافس.'); }
+    else if(e.message === 'NO_LESSON'){ alert('اختاري درساً واحداً على الأقل من قائمة "الدروس المستهدفة بالاختبار".'); }
     return false;
   }
   setAiStatus('جارٍ توليد أسئلة جديدة بالذكاء الاصطناعي (Gemini)…', null);
@@ -2052,7 +2052,7 @@ async function generateQuestionsWithAI(qCount){
   }catch(err){
     console.error(err);
     const detail = (err && err.message) ? String(err.message).slice(0,180) : '';
-    setAiStatus('❌ تعذّر توليد الأسئلة بالذكاء الاصطناعي (تحقّق من صحة المفتاح/اسم النموذج/الاتصال). تم استخدام نموذج احتياطي مؤقت. تفصيل الخطأ: ' + detail, 'bad');
+    setAiStatus('❌ تعذّر توليد الأسئلة بالذكاء الاصطناعي (تحقّقي من صحة المفتاح/اسم النموذج/الاتصال). تم استخدام نموذج احتياطي مؤقت. تفصيل الخطأ: ' + detail, 'bad');
     return false;
   }
 }
@@ -2114,7 +2114,7 @@ async function handleExamImageUpload(ev){
   const f = ev.target.files[0];
   if(!f) return;
   if(!localStorage.getItem('mansour_gemini_api_key')){
-    $('imageUploadStatus').textContent = '⚠️ أدخل مفتاح Gemini API أولاً من صفحة "المزيد" حتى يمكن قراءة الأسئلة من الصورة.';
+    $('imageUploadStatus').textContent = '⚠️ أدخلي مفتاح Gemini API أولاً من صفحة "المزيد" حتى يمكن قراءة الأسئلة من الصورة.';
     ev.target.value = ''; return;
   }
   $('imageUploadStatus').textContent = 'جاري قراءة الأسئلة من الصورة وحلّها بالذكاء الاصطناعي…';
@@ -2122,8 +2122,8 @@ async function handleExamImageUpload(ev){
     const b64 = await fileToBase64(f);
     const grade = $('selectGrade').value, subject = subjectNames[$('selectSubject').value] || 'العلوم';
     const qCount = Math.max(4, Number($('selectQuestionCount').value) || 10);
-    const prompt = `هذه صورة ورقة اختبار خارجية (اختيار من متعدد) في مادة ${subject} لطلاب الصف ${grade}. اقرأ كل الأسئلة الظاهرة في الصورة (يُفترض أنها ${qCount} سؤالاً تقريباً)، ولكل سؤال انسخ نص السؤال والخيارات الأربعة كما وردت حرفياً، ثم حلّ السؤال بنفسك بدقة وحدد فهرس الإجابة الصحيحة (correctIndex من 0 إلى 3)، وصنّف كل سؤال ضمن مجال مناسب (اسم الدرس أو الموضوع العلمي).
-أعد الناتج ككائن JSON (مصفوفة فقط) بدون أي نص أو شرح أو علامات ترميز إضافية، بالشكل التالي بالضبط:
+    const prompt = `هذه صورة ورقة اختبار خارجية (اختيار من متعدد) في مادة ${subject} لطالبات الصف ${grade}. اقرأ كل الأسئلة الظاهرة في الصورة (يُفترض أنها ${qCount} سؤالاً تقريباً)، ولكل سؤال انسخ نص السؤال والخيارات الأربعة كما وردت حرفياً، ثم حلّ السؤال بنفسك بدقة وحدد فهرس الإجابة الصحيحة (correctIndex من 0 إلى 3)، وصنّف كل سؤال ضمن مجال مناسب (اسم الدرس أو الموضوع العلمي).
+أعيدي الناتج ككائن JSON (مصفوفة فقط) بدون أي نص أو شرح أو علامات ترميز إضافية، بالشكل التالي بالضبط:
 [{"domain":"...","q":"نص السؤال","options":["الخيار الأول","الخيار الثاني","الخيار الثالث","الخيار الرابع"],"correctIndex":0}]`;
     const raw = await callGeminiVision(prompt, b64, f.type || 'image/jpeg');
     const clean = raw.replace(/```json|```/g,'').trim();
@@ -2140,12 +2140,12 @@ async function handleExamImageUpload(ev){
     currentModelName = $('selectModelLetter').value;
     const keyword = $('examKeywordInput').value.trim() || 'ورقة مصوَّرة';
     paperMeta(keyword); renderPaperQuestions(); saveLatestExamState();
-    $('imageUploadStatus').textContent = `✅ تم استخراج وحلّ ${built.length} سؤالاً من الصورة بنجاح. راجعها في ورقة الاختبار أدناه، ثم ابدأ جلسة التصحيح.`;
+    $('imageUploadStatus').textContent = `✅ تم استخراج وحلّ ${built.length} سؤالاً من الصورة بنجاح. راجعيها في ورقة الاختبار أدناه، ثم ابدئي جلسة التصحيح.`;
     $('paper').scrollIntoView({behavior:'smooth', block:'start'});
   }catch(err){
     console.error(err);
     const detail = (err && err.message) ? String(err.message).slice(0,180) : '';
-    $('imageUploadStatus').textContent = '❌ تعذّر قراءة الأسئلة من الصورة (تحقّق من وضوح الصورة أو المفتاح أو الاتصال). تفصيل الخطأ: ' + detail;
+    $('imageUploadStatus').textContent = '❌ تعذّر قراءة الأسئلة من الصورة (تحقّقي من وضوح الصورة أو المفتاح أو الاتصال). تفصيل الخطأ: ' + detail;
   } finally {
     ev.target.value = '';
   }
@@ -2153,7 +2153,7 @@ async function handleExamImageUpload(ev){
  
  
 function clearAllExamAndAnalysisData(){
-  if(!confirm("هل تريد حذف الاختبار الحالي وجميع نتائج الطلاب والتحليل والبدء من جديد؟")) return;
+  if(!confirm("هل تريدين حذف الاختبار الحالي وجميع نتائج الطالبات والتحليل والبدء من جديد؟")) return;
   ['mansour_last_exam_full_state','dashboardLatestExamResults','examResultsHistory','mansour_last_analysis_report'].forEach(k => localStorage.removeItem(k));
   const keys = []; for(let i=0;i<localStorage.length;i++){ const k = localStorage.key(i); if(k && k.startsWith('mansour_exam_state_')) keys.push(k); }
   keys.forEach(k => localStorage.removeItem(k));
@@ -2164,7 +2164,7 @@ function clearAllExamAndAnalysisData(){
   filterStudentResults(); showToast('تم مسح البيانات السابقة');
 }
  
-/* الطلاب من لوحة التحكم */
+/* الطالبات من لوحة التحكم */
 function fetchStudentsForSelectedClass(){
   const grade = $('selectGrade').value, digit = $('selectClassDigit').value;
   let list = [];
@@ -2179,8 +2179,8 @@ function fetchStudentsForSelectedClass(){
   if(!list.length){
     const short = grade.replace(" الابتدائي","");
     const cls = digit === 'all' ? short : `${short} - فصل ${digit}`;
-    list = [1,2,3].map(n => ({name:`طالب تجريبي (${n})`, className:cls, phone:''}));
-    $('studentsNote').textContent = 'لا توجد بيانات طلاب لهذا الصف/الفصل في لوحة التحكم، فاستُخدمت أسماء تجريبية.';
+    list = [1,2,3].map(n => ({name:`طالبة تجريبية (${n})`, className:cls, phone:''}));
+    $('studentsNote').textContent = 'لا توجد بيانات طالبات لهذا الصف/الفصل في لوحة التحكم، فاستُخدمت أسماء تجريبية.';
   }
   const m = new Map(); list.forEach(s => m.set(s.name, s));
   studentsList = Array.from(m.values());
@@ -2242,9 +2242,9 @@ function printGradesSheet(){ prepareGradesPrintSheet(); printSection('gradesShee
  
 /* جلسة التصحيح */
 function startTouchGradingSession(){
-  if(!activeQuestions.length){ alert('ولّد ورقة الاختبار أولاً من قسم "الورقة".'); return; }
+  if(!activeQuestions.length){ alert('ولّدي ورقة الاختبار أولاً من قسم "الورقة".'); return; }
   fetchStudentsForSelectedClass();
-  if(!studentsList.length){ alert('لا توجد قائمة طلاب'); return; }
+  if(!studentsList.length){ alert('لا توجد قائمة طالبات'); return; }
   currentStudentIndex = 0; $('touchGradingCard').hidden = false;
   startNewStudentSession(); $('touchGradingCard').scrollIntoView({behavior:'smooth', block:'start'});
 }
@@ -2253,7 +2253,7 @@ function startNewStudentSession(){ currentQuestionStep = 0; studentAnswers = {};
 function renderCurrentStepView(){
   const st = studentsList[currentStudentIndex], total = activeQuestions.length;
   $('studentHeader').innerHTML = `<span><b>${esc(st.name)}</b> <span class="tag">${esc(st.className)}</span></span>
-    <span class="hint">الطالب <span dir="ltr">${currentStudentIndex+1} / ${studentsList.length}</span></span>`;
+    <span class="hint">الطالبة <span dir="ltr">${currentStudentIndex+1} / ${studentsList.length}</span></span>`;
   $('progBar').style.width = ((currentQuestionStep+1)/total*100) + '%';
   const q = activeQuestions[currentQuestionStep], n = currentQuestionStep + 1, saved = studentAnswers[n] || '';
   $('singleQuestionContainer').innerHTML = `<div class="q-box"><span class="dm">${esc(q.domain)} · سؤال <span dir="ltr">${n} / ${total}</span></span>
@@ -2335,22 +2335,22 @@ function filterStudentResults(){
     $('sumCount').textContent = names.length; $('sumAvg').textContent = (sum/names.length).toFixed(1); $('sumMastered').textContent = mast;
   }
   const shown = names.filter(n => !q || n.toLowerCase().includes(q));
-  if(!shown.length){ out.innerHTML = '<div class="empty">لا توجد نتائج بعد. صحّح طالباً واحداً على الأقل من جلسة التصحيح السريع.</div>'; return; }
+  if(!shown.length){ out.innerHTML = '<div class="empty">لا توجد نتائج بعد. صحّحي طالبة واحدة على الأقل من جلسة التصحيح السريع.</div>'; return; }
   out.innerHTML = shown.map(n => {
     const d = allClassResults[n], m = d.maxScore || globalMaxScore;
-    const msg = `مدرسة داوود بن عروة الثقفي الابتدائية\nولي الأمر الفاضل، نود إفادتكم بحصول الابن: ${n} (${d.className})\nعلى درجة الاختبار (${currentModelName}): ${d.score} / ${m} (${d.correct} إجابات صحيحة من أصل ${activeQuestions.length}).\nمع تحيات المعلم: منصور عامر الرحيلي`;
+    const msg = `الابتدائية الأولى للبنات بالمدينة\nولي الأمر الفاضل، نود إفادتكم بحصول الابنة: ${n} (${d.className})\nعلى درجة الاختبار (${currentModelName}): ${d.score} / ${m} (${d.correct} إجابات صحيحة من أصل ${activeQuestions.length}).\nمع تحيات المعلمة: تهاني مهنا الحجيلي`;
     return `<div class="res"><span><b>${esc(n)}</b> <span class="tag">${esc(d.className)}</span></span>
       <span class="sc" dir="ltr">${d.score} / ${m}</span>
       <a class="btn wa sm noprint" target="_blank" href="${waLink(d.phone, msg)}">إرسال لولي الأمر</a></div>`;
   }).join('');
 }
 function prepareGradesPrintSheet(){
-  $('sheetPrintMeta').textContent = `الصف: ${$('selectGrade').value} | المادة: ${subjectNames[$('selectSubject').value]} | نوع الاختبار: ${$('selectExamType').value} (${currentModelName}) | عدد الطلاب: ${Object.keys(allClassResults).length}`;
+  $('sheetPrintMeta').textContent = `الصف: ${$('selectGrade').value} | المادة: ${subjectNames[$('selectSubject').value]} | نوع الاختبار: ${$('selectExamType').value} (${currentModelName}) | عدد الطالبات: ${Object.keys(allClassResults).length}`;
   let i = 1;
   $('sheetPrintTableBody').innerHTML = Object.keys(allClassResults).map(n => {
     const d = allClassResults[n], m = d.maxScore || globalMaxScore, p = m > 0 ? d.score/m*100 : 0;
     return `<tr><td>${i++}</td><td style="text-align:right;font-weight:700">${esc(n)}</td><td>${esc(d.className)}</td><td><b>${d.score}</b></td><td>${m}</td>
-      <td style="font-weight:700">${p >= 75 ? 'متقن' : 'يحتاج دعم وتدخل علاجي'}</td></tr>`;
+      <td style="font-weight:700">${p >= 75 ? 'متقنة' : 'تحتاج دعم وتدخل علاجي'}</td></tr>`;
   }).join('');
 }
  
@@ -2360,14 +2360,14 @@ function toggleAnalysisBox(){
   if(!b.hidden){ prepareAnalysisContent(); b.scrollIntoView({behavior:'smooth', block:'start'}); }
 }
 const REMEDIAL = {
-  "علوم الحياة":["مهارات ومفاهيم علوم الحياة (الكائنات الحية، الخلايا، والبيئة)","إعداد بطاقات رسومية توضيحية لأجزاء الكائنات الحية والعمليات الحيوية، وتكليف الطلاب بأنشطة عملية إضافية."],
+  "علوم الحياة":["مهارات ومفاهيم علوم الحياة (الكائنات الحية، الخلايا، والبيئة)","إعداد بطاقات رسومية توضيحية لأجزاء الكائنات الحية والعمليات الحيوية، وتكليف الطالبات بأنشطة عملية إضافية."],
   "العلوم الفيزيائية":["مهارات ومفاهيم العلوم الفيزيائية (المادة، الطاقة، والتغيرات)","تنفيذ تجارب عملية مبسطة داخل الفصل لتوضيح حالات المادة والتغيرات الفيزيائية والكيميائية والطاقة."],
   "علوم الأرض والفضاء":["مهارات ومفاهيم علوم الأرض والفضاء (الكون، المجموعة الشمسية، وحركة الأرض)","استخدام مجسمات ونماذج توضيحية لدوران الأرض حول محورها وحول الشمس، وتوضيح طبقات الغلاف الجوي والفصول الأربعة."],
-  "الاستقصاء العلمي":["مهارات ومفاهيم الاستقصاء العلمي والتفكير الناقد","تدريب الطلاب على خطوات البحث العلمي وطرح تساؤلات تجريبية وتنمية مهارات الملاحظة والاستنتاج والقياس."]
+  "الاستقصاء العلمي":["مهارات ومفاهيم الاستقصاء العلمي والتفكير الناقد","تدريب الطالبات على خطوات البحث العلمي وطرح تساؤلات تجريبية وتنمية مهارات الملاحظة والاستنتاج والقياس."]
 };
 function prepareAnalysisContent(){
   const box = $('analysisContentText');
-  if(!Object.keys(allClassResults).length){ box.innerHTML = '<div class="empty">ارصد درجات الطلاب أولاً لعرض التحليل والخطط العلاجية.</div>'; return; }
+  if(!Object.keys(allClassResults).length){ box.innerHTML = '<div class="empty">ارصدي درجات الطالبات أولاً لعرض التحليل والخطط العلاجية.</div>'; return; }
   const agg = {};
   Object.values(allClassResults).forEach(s => { const ds = s.domainStats || {};
     for(const d in ds){ if(!agg[d]) agg[d] = {correct:0,total:0}; agg[d].correct += ds[d].correct; agg[d].total += ds[d].total; } });
@@ -2381,7 +2381,7 @@ function prepareAnalysisContent(){
   }
   const plans = weak.length ? weak.map((d,i) => { const r = REMEDIAL[d] || REMEDIAL["الاستقصاء العلمي"];
     return `<div class="plan"><b>${i+1}. الهدف غير المتقن:</b> ${esc(r[0])}<br><span class="a">الخطة العلاجية المقترحة:</span> ${esc(r[1])}</div>`; }).join('')
-    : '<div class="plan" style="border-color:rgba(94,234,212,.4);background:rgba(94,234,212,.08);color:var(--good)">ممتاز! أتقن طلاب الفصل جميع المجالات ولا توجد فجوات تستدعي خطة علاجية.</div>';
+    : '<div class="plan" style="border-color:rgba(94,234,212,.4);background:rgba(94,234,212,.08);color:var(--good)">ممتاز! أتقنت طالبات الفصل جميع المجالات ولا توجد فجوات تستدعي خطة علاجية.</div>';
   const html = `<div class="tbl-wrap"><table><thead><tr><th>المجال</th><th>الإجابات الصحيحة</th><th>الإتقان</th><th>النسبة</th><th>التقييم</th></tr></thead><tbody>${rows}</tbody></table></div>
     <h4 style="margin:14px 0 8px;font-size:14px;color:var(--warn)">الخطط العلاجية الميدانية</h4>${plans}`;
   box.innerHTML = html;
@@ -2409,5 +2409,4 @@ if('serviceWorker' in navigator){ navigator.serviceWorker.register('./sw.js').ca
 </body>
 </html>
  
-
 
